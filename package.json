@@ -1,0 +1,26 @@
+{
+	"name": "obsidian-image-paster",
+	"version": "1.0.0",
+	"description": "Paste clipboard images into a per-note attachment folder (note.assets), insert a Markdown reference that renders in both Obsidian and generic Markdown, and hide the attachment folders from the file explorer. 粘贴剪切板图片时，保存到每篇笔记专属的图片目录（笔记名.assets），插入在 Obsidian 与通用 Markdown 中均可渲染的图片引用，并从文件列表隐藏这些图片目录。",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+	},
+	"keywords": [
+		"obsidian",
+		"plugin",
+		"image",
+		"paste"
+	],
+	"author": "chaoyi",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.11.0",
+		"builtin-modules": "^3.3.0",
+		"esbuild": "0.20.2",
+		"obsidian": "latest",
+		"tslib": "2.6.2",
+		"typescript": "5.4.5"
+	}
+}

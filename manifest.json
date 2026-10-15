@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-image-paster",
+	"name": "Image Paster",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Paste clipboard images into a per-note attachment folder (note.assets), insert a Markdown reference that renders in both Obsidian and generic Markdown, and hide the attachment folders from the file explorer. 粘贴剪切板图片时，保存到每篇笔记专属的图片目录（笔记名.assets），插入在 Obsidian 与通用 Markdown 中均可渲染的图片引用，并从文件列表隐藏这些图片目录。",
+	"author": "chaoyi",
+	"authorUrl": "",
+	"isDesktopOnly": false
+}
